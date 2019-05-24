@@ -47,7 +47,7 @@ class SkyfieldService():
             body_output = {
                             'name': body,
                             'decimal_attributes': {
-                                                    'ra': str(ra._degrees),
+                                                    'ra': str(ra._hours),
                                                     'dec': str(dec._degrees),
                                                     'az': str(az._degrees),
                                                     'el': str(el._degrees)
