@@ -1,0 +1,12 @@
+Click==7.0
+Flask==1.0.3
+gunicorn==19.9.0
+itsdangerous==1.1.0
+Jinja2==2.10.1
+jplephem==2.9
+MarkupSafe==1.1.1
+numpy==1.16.3
+sgp4==1.4
+skyfield==1.10
+virtualenv==16.6.0
+Werkzeug==0.15.4
