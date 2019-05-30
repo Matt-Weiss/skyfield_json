@@ -21,7 +21,7 @@ def ephemerides():
 def telescope_tracking():
     latitude = str(request.args.get('latitude')).replace("_", " ").upper()
     longitude = str(request.args.get('longitude')).replace("_", " ").upper()
-    celestial_body = str(request.args.get('body'))
+    celestial_body = str(request.args.get('bodies'))
 
     result = skyfield_service.SkyfieldService.telescope_tracking(latitude, longitude, celestial_body)
 
