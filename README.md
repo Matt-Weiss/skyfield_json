@@ -1,15 +1,15 @@
 # Skyfield JSON
 
-What do you do when the API that you planned your entire school project around is no longer in service? You build your own open source Microservice to provide the API endpoints that you need. Using an impressive dataset provided by **Jet Propulsion Laboratory**, combined with a **Skyfield - Python** package that performs the orbital mechanic calculations required to find the apparent locations of celestial bodies  - we were able to build out a stand alone Python application which delivers the information that we consume by our **Space In Your Face** Rails application.
+What do you do when the API that you planned your entire school project around is no longer in service? You build your own open source Microservice to provide the API endpoints that you need. Using an impressive dataset provided by **Jet Propulsion Laboratory**, combined with a [Skyfield - Python package](https://pypi.org/project/skyfield/) that performs the orbital mechanic calculations required to find the apparent locations of celestial bodies  - we were able to build out a stand alone Python application which delivers the information that we consume by our **Space In Your Face** Rails application.
 
-`https://github.com/Matt-Weiss/spaceinyourface`
-`https://spaceinyourface.herokuapp.com`
+[https://github.com/Matt-Weiss/spaceinyourface](https://github.com/Matt-Weiss/spaceinyourface)
+[https://spaceinyourface.herokuapp.com](https://spaceinyourface.herokuapp.com)
 
 Endpoint for Celestial Bodies:\
 `https://skyfield-json.herokuapp.com/ephemerides?`
 
 For what celestial bodies are available reference
-`https://rhodesmill.org/skyfield/`
+[https://rhodesmill.org/skyfield/](https://rhodesmill.org/skyfield/)
 
 Params:\
 `longitude` - string with underscore and direction - Ex: `41_W`\
@@ -22,7 +22,7 @@ A successful request will have a URL which looks like this: \
 
 #### Example JSON Output:
 
-![mock_search](skyfield_json_postnman.png)
+<img src='skyfield_json_postman.png' width='700px'>
 
 ```json
 {
