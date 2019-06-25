@@ -5,7 +5,7 @@ import json
 
 @app.route('/')
 def root():
-    return "Welcome to Skyfield JSON API. For more information, reference https://github.com/Matt-Weiss/skyfield_json and https://rhodesmill.org/skyfield/"
+    return "Welcome to Skyfield JSON API. For API documentation, reference https://github.com/Matt-Weiss/skyfield_json and for what celestial bodies are available reference https://rhodesmill.org/skyfield/"
 
 @app.route('/ephemerides')
 def ephemerides():
