@@ -9,4 +9,4 @@ numpy==1.16.3
 sgp4==1.4
 skyfield==1.10
 virtualenv==16.6.0
-Werkzeug==0.15.4
+Werkzeug==0.15.5
